@@ -1,5 +1,6 @@
 import React from "react"
+import { Card } from "react-bootstrap"
 
 export default function Navbar() {
-  return <div > <h1 className="Navvy"> Navbar Goes Here</h1> </div>
+  return <div className="NavOne"> <Card style={{ width: '75%' }} body> Navbar Goes Here</Card > </div>
 }
