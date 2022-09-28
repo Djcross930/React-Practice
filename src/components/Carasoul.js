@@ -11,12 +11,6 @@ function UncontrolledExample() {
           width='100%'
           height='440px'
         />
-        <Carousel.Caption>
-          <div className='carText'>
-            <h3>Ted</h3>
-            <p>Look at my man Ted, he's orange.</p>
-          </div>
-        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
@@ -26,13 +20,6 @@ function UncontrolledExample() {
           width='100%'
           height='440px'
         />
-
-        <Carousel.Caption>
-          <div className='carText'>
-            <h3>Bean</h3>
-            <p>This actually isn't Ted, it's Bean.</p>
-          </div>
-        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
@@ -42,15 +29,6 @@ function UncontrolledExample() {
           width='100%'
           height='440px'
         />
-
-        <Carousel.Caption>
-          <div className='carText'>
-            <h3>Ted and Bean</h3>
-            <p>
-              Look at this, they made friends
-            </p>
-          </div>
-        </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
   );
